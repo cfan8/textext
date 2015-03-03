@@ -1,5 +1,5 @@
 include;
-charDirPath = 'data/chartrain';
+charDirPath = 'data/chartest';
 charXmlPath = [charDirPath  '/char.xml'];
 charXml = xmlread(charXmlPath);
 root = charXml.getDocumentElement();
