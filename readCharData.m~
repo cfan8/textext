@@ -1,6 +1,0 @@
-charDirPath = 'data/chartrain';
-charXmlPath = [charDirPath  '/char.xml'];
-charXml = xmlread(charXmlPath);
-root = charXml.getDocumentElement();
-imgList = root.getChildNodes();
-
