@@ -1,4 +1,4 @@
-charClass = '7';
+charClass = 'A';
 for i = 1: size(testCharImg, 1);
     if (strcmp(testCharImg{i, 1}, charClass))
         imgList = testCharImg{i, 2};
